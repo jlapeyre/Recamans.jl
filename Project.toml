@@ -1,0 +1,16 @@
+name = "Recamans"
+uuid = "6f66f461-bf35-48e1-be20-3c513c87d4ba"
+authors = ["John Lapeyre <jlapeyre@users.noreply.github.com> and contributors"]
+version = "1.0.0"
+
+[deps]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
