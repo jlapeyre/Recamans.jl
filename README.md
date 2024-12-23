@@ -6,6 +6,7 @@
 ### [Recamán's sequence](https://en.wikipedia.org/wiki/Recam%C3%A1n%27s_sequence)
 
 [Recamán's sequence](https://en.wikipedia.org/wiki/Recam%C3%A1n%27s_sequence) $a_0, a_1, a_2\ldots$ is defined as:
+
 $$
 a_n = \begin{cases}
 0 && \text{if } n = 0 \\
