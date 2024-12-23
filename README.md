@@ -5,6 +5,14 @@
 
 ### [Recamán's sequence](https://en.wikipedia.org/wiki/Recam%C3%A1n%27s_sequence)
 
+$$
+a_n = \begin{cases}
+0 && \text{if } n = 0 \\
+a_{n - 1} -n && \text{if } a_{n - 1} -n > 0 \text{ and is not already in the sequence} \\
+a_{n - 1} + n && \text{otherwise}
+\end{cases}
+$$
+
 This code is performant, for simple code. But it is far from [research code](https://benchaffin.com/).
 
 Here are some examples
