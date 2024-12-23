@@ -15,7 +15,7 @@ a_{n - 1} + n && \text{otherwise}
 \end{cases}
 $$
 
-This code is performant, for simple code. But it is far from [research code](https://benchaffin.com/).
+This code in this package is performant, for simple code. But it is far from [research code](https://benchaffin.com/).
 
 Here are some examples
 ```julia
